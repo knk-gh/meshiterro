@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 gem "refile", require: "refile/rails", github: 'manfe/refile'
 gem "refile-mini_magick"
+gem 'kaminari'
 
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
