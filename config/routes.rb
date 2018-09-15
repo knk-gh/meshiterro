@@ -7,5 +7,5 @@ Rails.application.routes.draw do
   end
 
   root 'post_images#index'
-  resources :users, only: [:show]
+  resources :users, only: [:show, :edit, :update]
 end
